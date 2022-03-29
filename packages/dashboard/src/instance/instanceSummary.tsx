@@ -105,9 +105,9 @@ export const InstanceSummary: InstanceSummaryComponent = (props) => {
           <Grid item>
             <Tooltip title="Skipped Tests" arrow>
               <Chip
-                color={stats['pending'] ? 'orange' : 'grey'}
-                shade={!stats['pending'] ? 300 : undefined}
-                label={<Pad number={stats['pending']} />}
+                color={stats['skipped'] ? 'orange' : 'grey'}
+                shade={!stats['skipped'] ? 300 : undefined}
+                label={<Pad number={stats['skipped']} />}
                 icon={NextPlanOutlined}
               />
             </Tooltip>

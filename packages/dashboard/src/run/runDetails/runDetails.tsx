@@ -146,7 +146,7 @@ const getTestStatsCell = (params: GridRenderCellParams) => {
         <TestRetriesChip value={params.row.results?.retries ?? 0} />
       </Grid>
       <Grid item>
-        <TestSkippedChip value={params.row.results?.stats?.pending ?? 0} />
+        <TestSkippedChip value={params.row.results?.stats?.skipped ?? 0} />
       </Grid>
     </Grid>
   );
