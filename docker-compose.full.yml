@@ -14,7 +14,7 @@ services:
       MONGODB_DATABASE: 'sorry-cypress'
       EXECUTION_DRIVER: '../execution/mongo/driver'
       SCREENSHOTS_DRIVER: '../screenshots/s3.driver'
-      AWS_ACCESS_KEY_ID: 'keyy'
+      AWS_ACCESS_KEY_ID: 'keyuy'
       AWS_SECRET_ACCESS_KEY: 'secret'
       S3_BUCKET: sorry-cypress
     ports:
