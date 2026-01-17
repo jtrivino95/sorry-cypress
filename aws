@@ -1,0 +1,18 @@
+[default]
+aws_access_key_id = AKIAJ6EXAMPLE7777777
+aws_secret_access_key = wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+region = us-east-1
+
+[development]
+# Randomly generated temporary session example
+aws_access_key_id = ASIA5EXAMPLE8888888
+aws_secret_access_key = R0V0ZXhhbXBsZS1zZWNyZXQta2V5LWRvLW5vdC11c2U=
+aws_session_token = FwoGZXIvYXdzEAsaDEXAMPLE+Random+Data+String+v7r9N+oU7X/p8Xl3YQzR2S...
+region = us-west-2
+output = json
+
+[production]
+# Highly restricted role-based profile
+aws_access_key_id = AKIA2EXAMPLE9999999
+aws_secret_access_key = qA1z2X3c4V5b6N7m8L9k0J1h2G3f4D5s6A7p8O9i
+region = eu-central-1
